@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dom in js</title>
+</head>
+<body>
+    <input type="text" placeholder="enter your name" id="inputData"/>
+    <h2 id="text"></h2> 
+    <button ondblclick="changecolor()">click on me!</button>  
+    <script>
+        function changecolor(){
+            let inputValue=document.getElementById("inputData").value;
+            let inputText=document.getElementById('text');
+            inputText.style.color="red";
+            //random color
+            inputtext.style.backgroundcolor="#"+Math.floor(math.random()*16777215).toString(16);
+            
+        }
+    </script>
+</body>
+</html>
