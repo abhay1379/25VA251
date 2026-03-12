@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>condition in js</title>
+</head>
+<body>
+    <script>
+      //JavaScript uses conditional statements to perform different actions based on whether a condition is true or false  
+
+      // if..........
+      let age=20;
+      if(age<=18){
+        console.log(" not eligible for vote casting"); 
+      }
+      console.log("eligible for vote casting"); 
+
+      // switch case
+      let grade='C';
+      switch(grade){
+        case 'A':result="first division";
+        break;
+        case 'B':result="second division";
+        break;
+        case 'C':result="third division";
+        break;
+        default:result="fail";
+      }
+      console.log(result);
+
+      //else if
+      let marks=32;
+
+      if(marks<=33){
+       console.log("grade third");
+      }
+      else if(marks>33 && marks<60){
+          console.log("grade second");
+      }
+      else if(marks>=60 && marks<=100){
+        console.log("grade first");
+      }
+    </script>
+    
+</body>
+</html>

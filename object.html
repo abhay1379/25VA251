@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>object in js</title>
+</head>
+<body>
+    <script>
+    //object in js : collection(pair) of keys(properties and)    
+  let student={
+  name:"Abhay",
+  age:20,
+  ismarried:false,
+  adress:{
+    streetno:8,
+    area:"chipiyana",
+    city:"gzb",
+    pincode:201009
+  },
+  course:"B.tech",
+  branch:"CSE",
+  year:2025,
+  getInfo:function(){
+    return "My education details is"+
+    student.branch+" "+ student.branch;
+  },
+  subjects:["maths"+"Hindi"+"english"],
+  examDone:null
+  };
+  //access object's keys or property
+    console.log(student);
+    console.log(typeof(student));
+
+  //delete any key frome object
+   console.log(delete student.name);
+    console.log(student);
+
+    //find length of object
+    let keysLength=object.keys(student);
+     console.log( keysLength.length);
+
+     // iterate object's keys(properties)
+     for(let i=0; i<keyslength.legth;i++){
+         console.log(student[keyslength[i]]);
+     }
+
+     for(let x in student ){
+         console.log(student[x]);
+     }
+     //creat an object using new keyword
+     let muInfo=new Object();
+     myInfo.name="Abhay";
+    myInfo.age=20;
+    myInfo.city="gzb";
+    myInfo.adress=null;
+    myInfo.mobno=9924616934;
+
+    // access object's keys using[]
+     console.log(myInfo['name']);
+    </script>
+    
+</body>
+</html>
