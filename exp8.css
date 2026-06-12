@@ -1,0 +1,28 @@
+.counter-box {
+  text-align: center;
+  margin-top: 50px;
+  gap: 20px;
+}
+
+body {
+  color: green;
+}
+
+h2 {
+  color: red;
+}
+
+button {
+  background-color: rgb(184, 184, 204);
+  color: white;
+  width: 100px;
+  margin: 5px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold !important;
+}
+
+button:hover {
+  background-color: rgb(132, 134, 154) !important;
+}
